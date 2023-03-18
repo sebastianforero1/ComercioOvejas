@@ -21,6 +21,7 @@ namespace LogicaComercio
 
         private double cantidadKgLana;
         private double cantidadLtsLeche;
+        private double ovejota;
 
         private Oveja[] lasOvejas;
 
