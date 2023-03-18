@@ -1,0 +1,12 @@
+C:\Users\sebas\source\repos\ComercioOvejas\LogicaComercio\obj\Debug\net7.0\LogicaComercio.csproj.AssemblyReference.cache
+C:\Users\sebas\source\repos\ComercioOvejas\LogicaComercio\obj\Debug\net7.0\LogicaComercio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sebas\source\repos\ComercioOvejas\LogicaComercio\obj\Debug\net7.0\LogicaComercio.AssemblyInfoInputs.cache
+C:\Users\sebas\source\repos\ComercioOvejas\LogicaComercio\obj\Debug\net7.0\LogicaComercio.AssemblyInfo.cs
+C:\Users\sebas\source\repos\ComercioOvejas\LogicaComercio\obj\Debug\net7.0\LogicaComercio.csproj.CoreCompileInputs.cache
+C:\Users\sebas\source\repos\ComercioOvejas\LogicaComercio\bin\Debug\net7.0\LogicaComercio.deps.json
+C:\Users\sebas\source\repos\ComercioOvejas\LogicaComercio\bin\Debug\net7.0\LogicaComercio.dll
+C:\Users\sebas\source\repos\ComercioOvejas\LogicaComercio\bin\Debug\net7.0\LogicaComercio.pdb
+C:\Users\sebas\source\repos\ComercioOvejas\LogicaComercio\obj\Debug\net7.0\LogicaComercio.dll
+C:\Users\sebas\source\repos\ComercioOvejas\LogicaComercio\obj\Debug\net7.0\refint\LogicaComercio.dll
+C:\Users\sebas\source\repos\ComercioOvejas\LogicaComercio\obj\Debug\net7.0\LogicaComercio.pdb
+C:\Users\sebas\source\repos\ComercioOvejas\LogicaComercio\obj\Debug\net7.0\ref\LogicaComercio.dll

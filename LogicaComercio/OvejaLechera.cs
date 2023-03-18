@@ -1,0 +1,63 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace LogicaComercio
+{
+    public class OvejaLechera : Oveja
+    {
+        private double litrosLeche;
+
+        public OvejaLechera() : base()
+        {
+            litrosLeche = 0;
+        }
+
+        public OvejaLechera(string sexo, int peso, int edad, double litrosLeche)
+        {
+            this.sexo = sexo;
+            this.peso = peso;
+            this.edad = edad;
+            this.litrosLeche= litrosLeche;
+
+            EvaluaSiEsApta();
+        }
+
+        public double GetLitrosLeche()
+        {
+            return litrosLeche;
+        }
+
+        public void SetLitrosLeche(double litrosLeche)
+        {
+            this.litrosLeche = litrosLeche;
+        }
+
+        public override void EvaluaSiEsApta()
+        {
+            double cantidadLecheEnKilos = litrosLeche / 1.046f;
+
+            if(edad >= 24 && edad <= 84 && peso >= 35 && sexo == "Hembra" && cantidadLecheEnKilos >= 0.75f)
+                esApta= true;
+
+        }
+        public override double GetProduccion()
+        {
+            return litrosLeche;
+        }
+        public override string ToString()
+        {
+            string resultado = $"Oveja {sexo}, peso: {peso}, edad: {edad}, " +
+                $"cantidad de leche: {litrosLeche.ToString("00.00")} Lts. ";
+            if (esApta)
+                resultado += "Es apta";
+            else
+                resultado += "No es apta";
+
+            return resultado;
+        }
+    }
+}
+

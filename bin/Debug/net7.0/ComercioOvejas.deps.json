@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "ComercioOvejas/1.0.0": {
+        "dependencies": {
+          "LogicaComercio": "1.0.0"
+        },
+        "runtime": {
+          "ComercioOvejas.dll": {}
+        }
+      },
+      "LogicaComercio/1.0.0": {
+        "runtime": {
+          "LogicaComercio.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ComercioOvejas/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LogicaComercio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
